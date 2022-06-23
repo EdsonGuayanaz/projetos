@@ -3,14 +3,14 @@
   margin: 0;
 }
 
-div {
+#top-site {
   background-color: #313a5a;
   margin-left: auto;
   margin-right: auto;
   width: 375px;
 }
 
-h1 {
+#top-site h1 {
   line-height: 130%;
   color: #1fdb84;
   text-align: center;
@@ -18,16 +18,7 @@ h1 {
   padding-top: 112px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-div p {
+#top-site p {
   color: #ffff;
   text-align: center;
   font-size: 16px;
@@ -35,22 +26,19 @@ div p {
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 60px;
 }
 
-p1 {
-  font-size: 72px;
-  color: #1fdb84;
-  text-align: center;
+#top-site img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
 }
 
-p {
-  color: #5b6c94;
-  text-align: center;
-}
-
-button {
-  width: 220px;
-  height: 52px;
+.button {
+  width: 300px;
+  height: 60px;
 
   display: block;
   margin-left: auto;
@@ -61,12 +49,108 @@ button {
   font-size: 18px;
   border: 0;
   border-radius: 10px;
-  margin-top: 60px;
 }
 
-img {
-  display: block;
+.container-mid {
+  width: 375px;
+  background: #f8f9fc;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#mid-site {
+  width: 332px;
+  background: #ffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mid-site img {
+  margin-left: 16px;
+  margin-bottom: 26px;
+  margin-top: 64px;
+}
+
+#mid-site h3 {
+  font-size: 18px;
+  margin-left: 16px;
+  margin-bottom: 51px;
+}
+
+#mid-site p {
+  color: #5b6c94;
+  text-align: left;
+  margin-left: 16px;
+  line-height: 32px;
+}
+
+#mid-site img {
+  background: rgba(31, 219, 132, 0.1);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+hr {
+  margin-left: 16px;
+  margin-bottom: 18px;
+}
+
+.container-back {
+  width: 375px;
+  background: #f8f9fc;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 77px;
+}
+
+#back-site {
+  width: 332px;
+  background: white;
+  padding-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 57px;
+}
+
+.container-back h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#back-site h5 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.mes {
+  padding-bottom: 60px;
+}
+
+#back-site h4 {
+  font-size: 72px;
+  color: #1fdb84;
+  text-align: center;
+  font-weight: 400;
+}
+
+#back-site p {
+  color: #5b6c94;
+  text-align: center;
+  margin-top: 17px;
+  line-height: 28px;
+}
+
+#back-site .button {
+  margin-top: 59px;
 }
