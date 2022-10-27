@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card NLW Copa</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo da NLW Copa" />
+    </header>
+
+    <div class="dados">
+      <div class="formulario">
+        <div class="formgroup">
+          <label>Nome: </label>
+          <input type="text" name="inputNome" id="inputNome" />
+        </div>
+        <div class="formgroup">
+          <label>Descrição: </label>
+          <input type="text" name="inputDesc" id="inputDesc" />
+        </div>
+        <div class="formgroup">
+          <label>Link da Imagem: </label>
+          <input type="text" name="inputImg" id="inputImg" />
+        </div>
+      </div>
+
+      <input type="submit" id="send" value="Atualizar" />
+    </div>
+
+    <div class="card" ondblclick="changeCard(event)">
+      <img
+        src="https://github.com/EdsonGuayanaz.png"
+        alt="Foto de Edson Guayanaz"
+        id="img"
+      />
+      <div class="info">
+        <h1 id="title">Edson Guayanaz</h1>
+        <p id="desc">Student at Rockeseat</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
